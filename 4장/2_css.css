@@ -1,0 +1,7 @@
+div.indent {text-indent: 5em;}
+h3.face {color: green;}
+body.main {background-color: skyblue;}
+em.road {color: green;}
+strong.flower {color : red;}
+#center {text-align: center;}
+div > strong.name {background-color: yellow;}
