@@ -52,4 +52,3 @@ console.log(name);
 name = name ?? '제라오라';
 console.log(name);
 name = name ?? '아듀라';
-console.log(name);

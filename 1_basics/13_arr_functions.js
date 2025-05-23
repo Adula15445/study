@@ -143,4 +143,3 @@ console.log(nums.find((x) => x % 2 === 0));
 console.log(nums.findIndex((x) => x % 2 === 0));
 
 // reduce()
-console.log(nums.reduce((p , n) => p + n,0));

@@ -76,4 +76,3 @@ console.log(multAll(3, 4, 5, 6, 7));
 
 console.log(typeof mult);
 console.log(mult instanceof Object);
-// 함수는 Object임
