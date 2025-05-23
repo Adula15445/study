@@ -74,7 +74,7 @@ console.log(adula);
 console.log(adula === adula4);
 
 // 완전 새로운 Array, 메모리 공간이 다름
-console.log([...adula,] === adula);
+// console.log([...adula,] === adula);
 
 // join()
 // String 으로 묶을 수 있음.
@@ -143,3 +143,5 @@ console.log(nums.find((x) => x % 2 === 0));
 console.log(nums.findIndex((x) => x % 2 === 0));
 
 // reduce()
+console.log(nums.reduce((p, n) => p + n, 0));
+

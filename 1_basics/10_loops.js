@@ -30,3 +30,4 @@ for(let key in arr) {
 
 for(let value of arr) {
     console.log(value)
+}

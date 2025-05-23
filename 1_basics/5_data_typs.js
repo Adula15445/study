@@ -124,3 +124,4 @@ console.log(arr[1]);
  * C
  * dynamic typing => 안알랴줌
  * javasctipt, python
+*/
