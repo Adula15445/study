@@ -45,6 +45,8 @@ adula = [
 ]
 
 console.log(adula);
+// 여기서부터가 현대에 쓰는 함수
+
 // concat()
 // 아예 다른 메모리 공간에 새로운 Array를 만들어 저장.
 // 원래 Array는 바뀌지 않음
@@ -142,6 +144,6 @@ console.log(nums.find((x) => x % 2 === 0));
 // findindex()
 console.log(nums.findIndex((x) => x % 2 === 0));
 
-// reduce()
+// reduce() 다 더함
 console.log(nums.reduce((p, n) => p + n, 0));
 
