@@ -1,0 +1,10 @@
+body{
+    font-family: "Time New Roman", serif;
+    font-size : large;
+}
+h3 {
+    font:italic bold 40px consolas, sans-serif;
+}
+span {
+    font-size : 1.5em
+}

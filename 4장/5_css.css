@@ -1,0 +1,16 @@
+body {background-color: ghostwhite;}
+span {background-color: deepskyblue;}
+p {
+    border : 3px dotted red;
+}
+
+div.box {
+    background-color: yellow;
+    border-style: solid;
+    border-color: red;
+
+    margin : 40px;
+    border-width: 30px;
+    padding: 20px;
+}
+

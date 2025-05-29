@@ -1,0 +1,9 @@
+h3 {text-align: right;}
+span{text-decoration: line-through;}
+strong{text-decoration: overline;}
+.p1 {text-indent: 3em; text-align : justify;}
+.p2 {
+    text-indent: 1em;
+    text-align: center;
+}
+a.naver {text-decoration: none;}

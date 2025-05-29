@@ -1,0 +1,57 @@
+색과 텍스트 꾸미기
+css는 RGB, RGBA, HSL 등 3가지 방법으로 표현함.
+16진수 코드로 색 표현,
+10진수 코드와 RGB로 색 표현,
+색 이름으로 표현
+
+색 관련 파라미터
+    color : 색
+    background color : 색
+    board-color : 색
+
+텍스트 관련 파라미터
+    text-ident : 값;
+        들여쓰기
+        %로 줄 수 있고, px나 em도 가능
+    text-align : left, right, center, justify;
+    text-decoration : none(밑줄 없앨 때), underline, overline, line-through;
+
+CSS3의 표준 단위
+    em : 배수
+    % : 퍼센트
+    px : 픽셀 수 
+    cm : 센티미터
+    mm : 밀리미터
+    in : 인치
+    pt : 포인터
+    pc : 피카소(12pt)
+    deg : 각도
+
+폰트 형
+    Serif 형 : Serif가 있는 서체
+    Sans-serif 형 : Serif가 없는 서체
+    Monospace : 글자의 폭이 동일한 서체
+
+font family 폰트 패밀리
+font-family : Arial, "Times New Roman", Serif;
+    Arial가 없으면 Times New Roman, 그것도 없으면 Serif 아무거나           
+
+font-size 폰트 크기
+    font-size : 40px; 40픽셀 크기
+    font-size : medium; 중간 크기, 브라우저마다 다름
+    font-size : 1.6em; 현재 폰트의 1.6배
+
+font-style 폰트 스타일
+    font-style : italic;
+
+font-weight 폰트 굵기
+    font-weight : 300;
+    font-weight : bold;
+
+font 단축 프로퍼티
+font : font-style font-weight font-size font-family
+font-size, font-family 는 반드시 지정되어야 하지만 나머지는 생략할 수 있음.
+
+box model
+태크 하나를 박스로 보는 것
+내용물을 구분하고 묶기 위해 씀
