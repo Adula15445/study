@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        이메일 주소 : <input type="email" placeholder="abcd@efg"> <br>
+        <!-- 
+            placeholder 속성은 사용자가 입력할 정보의 형식의 예시를 보여 준다.
+            email 태그는 이메일 주소만 입력받는다. submit 버튼이 클릭되면
+            웹 서버로 전송되기 전에 형식 검사가 이루어진다.
+        -->
+        서버 주소 : <input type="url" placeholder="http://"> <br>
+        <!-- 
+            웹 서버로 전송될 때 유효성이 자동으로 검사된다.
+        -->
+        전화번호 : <input type="tel" placeholder="010-1234-5678"> <br>
+        <!-- 
+            전화번호의 형식은 다양하므로 유효성 검사를 하지 않는다.
+            사용자에게 placeholder속성으로 형식을 보여주는 것이 바람직하다.
+        -->
+        전송 : <input type="submit" value="전송"><br>
+        검색어 : <input type="search" placeholder="검색어">
+        <input type="submit" value = "검색">
+    </form>
+</body>
+</html>

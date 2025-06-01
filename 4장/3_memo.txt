@@ -55,3 +55,6 @@ font-size, font-family 는 반드시 지정되어야 하지만 나머지는 생�
 box model
 태크 하나를 박스로 보는 것
 내용물을 구분하고 묶기 위해 씀
+
+box-shadow 프로퍼티
+text-shadow : h-shdow v-shadow blur-radius color|none
